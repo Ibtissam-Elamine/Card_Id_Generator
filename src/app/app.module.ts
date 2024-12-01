@@ -3,9 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { SalesforceComponent } from './salesforce/salesforce.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SalesforceComponent
   ],
   imports: [
     BrowserModule
